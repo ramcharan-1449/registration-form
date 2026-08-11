@@ -14,7 +14,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     if (name === "" || email === "" || phone === "" ||
         password === "" || course === "") {
 
-        message.innerHTML = "Please fill all required fields.";
+        message.innerHTML = "Please fill all  the required fields .";
         message.style.color = "red";
         return;
     }
@@ -26,7 +26,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     }
 
     if (!terms) {
-        message.innerHTML = "Please accept the terms and conditions.";
+        message.innerHTML = "Please accept the terms and conditions that are required.";
         message.style.color = "red";
         return;
     }
